@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1599,
-    "timeDay": 1599,
-    "timeWeek": 1599,
-    "timeMonth": 1599,
-    "timeYear": 1599,
+    "time": 1564,
+    "timeDay": 1564,
+    "timeWeek": 1564,
+    "timeMonth": 1564,
+    "timeYear": 1564,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1539,
-    "timeDay": 1539,
-    "timeWeek": 1539,
-    "timeMonth": 1539,
-    "timeYear": 1539,
+    "time": 1564,
+    "timeDay": 1564,
+    "timeWeek": 1564,
+    "timeMonth": 1564,
+    "timeYear": 1564,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,31 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 959,
-    "timeDay": 959,
-    "timeWeek": 959,
-    "timeMonth": 959,
-    "timeYear": 959,
+    "time": 973,
+    "timeDay": 973,
+    "timeWeek": 973,
+    "timeMonth": 973,
+    "timeYear": 973,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Carovana del Bù",
+    "url": "https://www.carovana.ch",
+    "icon": "https://icons.duckduckgo.com/ip3/www.carovana.ch.ico",
+    "slug": "carovana-del-bu",
+    "status": "down",
+    "uptime": "27.79%",
+    "uptimeDay": "27.79%",
+    "uptimeWeek": "27.79%",
+    "uptimeMonth": "27.79%",
+    "uptimeYear": "27.79%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-01-26": 0
+    }
   }
 ]
