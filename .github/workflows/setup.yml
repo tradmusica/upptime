@@ -15,6 +15,9 @@
 
 
 name: Setup CI
+concurrency:
+  group: upptime-master
+  cancel-in-progress: false
 on:
   push:
     paths:

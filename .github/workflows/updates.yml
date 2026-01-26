@@ -15,6 +15,9 @@
 
 
 name: Updates CI
+concurrency:
+  group: upptime-master
+  cancel-in-progress: false
 on:
   schedule:
     - cron: "0 3 * * *"

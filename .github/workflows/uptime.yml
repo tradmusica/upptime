@@ -15,6 +15,9 @@
 
 
 name: Uptime CI
+concurrency:
+  group: upptime-master
+  cancel-in-progress: false
 on:
   schedule:
     - cron: "*/5 * * * *"
