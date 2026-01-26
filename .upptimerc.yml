@@ -2,14 +2,106 @@ owner: tradmusica # Your GitHub organization or username, where this repository 
 repo: upptime # The name of this repository
 
 sites:
-  - name: Verlag der Spielleute
-    url: https://www.spielleute.de
-  - name: Bagpipe.de
+  - name: bagpipe Category
+    url: https://bagpipe.de/onlinekurse-dudelsack/
+  - name: BP Hallo HTTP non-WWW
+    url: http://bagpipe.de/hallo-dudelsack
+  - name: BP Hallo HTTPS non-WWW
+    url: https://bagpipe.de/hallo-dudelsack
+  - name: BP Hallo HTTPS WWW
+    url: https://www.bagpipe.de/hallo-dudelsack
+  - name: BP Hallo HTTP WWW
+    url: http://www.bagpipe.de/hallo-dudelsack
+  - name: BP HTTP non-www
+    url: http://bagpipe.de
+  - name: BP HTTPS non-www COMP
+    url: https://bagpipe.de/das-multi-einsteiger-set-fuer-den-schottischen-dudelsack/
+  - name: BP HTTPS non-www SHOP
+    url: https://bagpipe.de/shop/
+  - name: BP HTTPS non-www +SSL
+    url: https://bagpipe.de
+  - name: BP HTTPS www +SSL
     url: https://www.bagpipe.de
-  - name: Folk.World
-    url: https://folk.world
-  - name: Carovana del Bù
+  - name: carovana HTTP
+    url: http://carovana.ch
+  - name: carovana HTTPS
+    url: https://carovana.ch
+  - name: carovana HTTPS WWW
     url: https://www.carovana.ch
+  - name: carovana HTTP WWW
+    url: http://www.carovana.ch
+  - name: BP HTTP www
+    url: http://www.bagpipe.de
+  - name: BP MX
+    url: dns-resolve://bagpipe.de
+  - name: FW HTTP non-www
+    url: http://folk.world
+  - name: FW HTTPS DE BlogPost LIVE
+    url: https://folk.world/de/undaunted-von-stout-will-irischen-folk-neu-interpretieren/
+  - name: FW HTTPS DE BlogTag LIVE
+    url: https://folk.world/de/tag/dudelsack/
+  - name: FW HTTPS DE Cart LIVE
+    url: https://folk.world/de/warenkorb/
+  - name: FW HTTPS DE Page LIVE
+    url: https://folk.world/de/autor-werden/
+  - name: FW HTTPS DE ShopHome LIVE
+    url: https://folk.world/de/shop/
+  - name: FW HTTPS DE ShopProduct LIVE
+    url: https://folk.world/de/s/german-smallpipe/
+  - name: FW HTTPS DE ShopTag LIVE
+    url: https://folk.world/de/stag/dudelsack/
+  - name: FW HTTPS Feed LIVE
+    url: https://folk.world/feed/
+  - name: FW HTTPS folkblog/cat LIVE
+    url: https://folk.world/de/folkblog/folk-klange-musikrezensionen/
+  - name: FW HTTPS folkblog LIVE
+    url: https://folk.world/folkblog/
+  - name: FW HTTPS non-www +SSL
+    url: https://folk.world
+  - name: FW HTTPS ShopCat LIVE
+    url: https://folk.world/scat/german-smallpipe/
+  - name: FW HTTPS www +SSL
+    url: https://www.folk.world
+  - name: FW HTTP www
+    url: http://www.folk.world
+  - name: FW MX
+    url: dns-resolve://folk.world
+  - name: FW PING LIVE
+    url: icmp-ping://folk.world
+  - name: hundetrainerin
+    url: https://hundetrainerin.nrw/
+  - name: hundetrainerin
+    url: https://www.hundetrainerin.nrw/
+  - name: hundetrainerin non-SSL
+    url: http://www.hundetrainerin.nrw/
+  - name: hundetrainerin non-WWW
+    url: https://hundetrainerin.nrw/
+  - name: hundetrainerin non-WWW non-SSL
+    url: http://hundetrainerin.nrw/
+  - name: nyckelharpa-spielen
+    url: https://nyckelharpa-spielen.de/
+  - name: spielleute.com MX
+    url: dns-resolve://spielleute.com
+  - name: VS MX
+    url: dns-resolve://spielleute.de
+  - name: verlag-der-spielleute.de MX
+    url: dns-resolve://verlag-der-spielleute.de
+  - name: VS HTTP non-www
+    url: http://spielleute.de
+  - name: VS HTTPS non-www +SSL
+    url: https://spielleute.de
+  - name: VS HTTPS www +SSL
+    url: https://www.spielleute.de
+  - name: VS HTTP www
+    url: http://www.spielleute.de
+  - name: VS PBF HTTP
+    url: http://spielleute.de/palmbayfrost
+  - name: VS PBF HTTPS
+    url: https://spielleute.de/palmbayfrost
+  - name: VS PBF HTTPS www
+    url: https://www.spielleute.de/palmbayfrost
+  - name: VS PBF HTTP www
+    url: http://www.spielleute.de/palmbayfrost
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
