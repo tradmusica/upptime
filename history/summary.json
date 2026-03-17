@@ -226,7 +226,7 @@
       "2026-01-28": 2880,
       "2026-01-27": 2880,
       "2026-01-26": 896,
-      "2026-03-17": 638,
+      "2026-03-17": 660,
       "2026-03-16": 1440,
       "2026-03-15": 1440,
       "2026-03-14": 1440,
@@ -266,7 +266,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-17": 1276,
+      "2026-03-17": 1320,
       "2026-03-16": 2880,
       "2026-03-15": 2880,
       "2026-03-14": 2880,
@@ -336,7 +336,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-17": 1276,
+      "2026-03-17": 1320,
       "2026-03-16": 2880,
       "2026-03-15": 2880,
       "2026-03-14": 2880,
@@ -436,7 +436,7 @@
       "2026-01-28": 2880,
       "2026-01-27": 2880,
       "2026-01-26": 894,
-      "2026-03-17": 638,
+      "2026-03-17": 660,
       "2026-03-16": 1440,
       "2026-03-15": 1440,
       "2026-03-14": 1440,
@@ -494,7 +494,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-17": 1276,
+      "2026-03-17": 1320,
       "2026-03-16": 2880,
       "2026-03-15": 2880,
       "2026-03-14": 2880,
@@ -834,7 +834,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-17": 1276,
+      "2026-03-17": 1320,
       "2026-03-16": 2880,
       "2026-03-15": 2880,
       "2026-03-14": 2880,
@@ -904,7 +904,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-17": 1276,
+      "2026-03-17": 1320,
       "2026-03-16": 2880,
       "2026-03-15": 2880,
       "2026-03-14": 2880,
@@ -962,19 +962,19 @@
     "url": "https://hundetrainerin.nrw/",
     "icon": "https://icons.duckduckgo.com/ip3/hundetrainerin.nrw.ico",
     "slug": "hundetrainerin",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 958,
-    "timeDay": 764,
-    "timeWeek": 878,
-    "timeMonth": 997,
-    "timeYear": 958,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.40%",
+    "uptimeWeek": "99.77%",
+    "uptimeMonth": "99.95%",
+    "uptimeYear": "99.97%",
+    "time": 960,
+    "timeDay": 884,
+    "timeWeek": 895,
+    "timeMonth": 999,
+    "timeYear": 960,
     "dailyMinutesDown": {
-      "2026-03-17": 1
+      "2026-03-17": 23
     }
   },
   {
@@ -982,19 +982,19 @@
     "url": "https://www.hundetrainerin.nrw/",
     "icon": "https://icons.duckduckgo.com/ip3/www.hundetrainerin.nrw.ico",
     "slug": "hundetrainerin",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 958,
-    "timeDay": 764,
-    "timeWeek": 878,
-    "timeMonth": 997,
-    "timeYear": 958,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.40%",
+    "uptimeWeek": "99.77%",
+    "uptimeMonth": "99.95%",
+    "uptimeYear": "99.97%",
+    "time": 960,
+    "timeDay": 884,
+    "timeWeek": 895,
+    "timeMonth": 999,
+    "timeYear": 960,
     "dailyMinutesDown": {
-      "2026-03-17": 1
+      "2026-03-17": 23
     }
   },
   {
@@ -1086,7 +1086,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-17": 1276,
+      "2026-03-17": 1322,
       "2026-03-16": 2880,
       "2026-03-15": 2880,
       "2026-03-14": 2880,
@@ -1156,7 +1156,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-17": 1276,
+      "2026-03-17": 1322,
       "2026-03-16": 2880,
       "2026-03-15": 2880,
       "2026-03-14": 2880,
@@ -1226,7 +1226,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-17": 1276,
+      "2026-03-17": 1322,
       "2026-03-16": 2880,
       "2026-03-15": 2880,
       "2026-03-14": 2880,
