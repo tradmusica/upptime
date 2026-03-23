@@ -192,7 +192,7 @@
     "uptime": "0.00%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "3.86%",
+    "uptimeMonth": "6.43%",
     "uptimeYear": "0.00%",
     "time": 538,
     "timeDay": 0,
@@ -230,7 +230,7 @@
       "2026-01-28": 2880,
       "2026-01-27": 2880,
       "2026-01-26": 896,
-      "2026-03-23": 7,
+      "2026-03-23": 1135,
       "2026-03-22": 1440,
       "2026-03-21": 1440,
       "2026-03-20": 1440,
@@ -276,7 +276,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-23": 14,
+      "2026-03-23": 2270,
       "2026-03-22": 2880,
       "2026-03-21": 2880,
       "2026-03-20": 2880,
@@ -352,7 +352,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-23": 14,
+      "2026-03-23": 2270,
       "2026-03-22": 2880,
       "2026-03-21": 2880,
       "2026-03-20": 2880,
@@ -420,7 +420,7 @@
     "uptime": "0.00%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "3.86%",
+    "uptimeMonth": "6.43%",
     "uptimeYear": "0.00%",
     "time": 367,
     "timeDay": 0,
@@ -458,7 +458,7 @@
       "2026-01-28": 2880,
       "2026-01-27": 2880,
       "2026-01-26": 894,
-      "2026-03-23": 7,
+      "2026-03-23": 1135,
       "2026-03-22": 1440,
       "2026-03-21": 1440,
       "2026-03-20": 1440,
@@ -522,7 +522,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-23": 16,
+      "2026-03-23": 2270,
       "2026-03-22": 2880,
       "2026-03-21": 2880,
       "2026-03-20": 2880,
@@ -868,7 +868,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-23": 16,
+      "2026-03-23": 2270,
       "2026-03-22": 2880,
       "2026-03-21": 2880,
       "2026-03-20": 2880,
@@ -944,7 +944,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-23": 16,
+      "2026-03-23": 2270,
       "2026-03-22": 2880,
       "2026-03-21": 2880,
       "2026-03-20": 2880,
@@ -1008,9 +1008,9 @@
     "url": "https://hundetrainerin.nrw/",
     "icon": "https://icons.duckduckgo.com/ip3/hundetrainerin.nrw.ico",
     "slug": "hundetrainerin",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "99.77%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.97%",
@@ -1020,6 +1020,7 @@
     "timeMonth": 910,
     "timeYear": 953,
     "dailyMinutesDown": {
+      "2026-03-23": 0,
       "2026-03-17": 23
     }
   },
@@ -1028,9 +1029,9 @@
     "url": "https://www.hundetrainerin.nrw/",
     "icon": "https://icons.duckduckgo.com/ip3/www.hundetrainerin.nrw.ico",
     "slug": "hundetrainerin",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.96%",
     "uptimeWeek": "99.77%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.97%",
@@ -1040,6 +1041,7 @@
     "timeMonth": 910,
     "timeYear": 953,
     "dailyMinutesDown": {
+      "2026-03-23": 1,
       "2026-03-17": 23
     }
   },
@@ -1048,18 +1050,20 @@
     "url": "http://www.hundetrainerin.nrw/",
     "icon": "https://icons.duckduckgo.com/ip3/www.hundetrainerin.nrw.ico",
     "slug": "hundetrainerin-non-ssl",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 571,
-    "timeDay": 642,
-    "timeWeek": 537,
-    "timeMonth": 561,
-    "timeYear": 571,
-    "dailyMinutesDown": {}
+    "time": 582,
+    "timeDay": 919,
+    "timeWeek": 619,
+    "timeMonth": 583,
+    "timeYear": 582,
+    "dailyMinutesDown": {
+      "2026-03-23": 0
+    }
   },
   {
     "name": "hundetrainerin non-WWW",
@@ -1132,7 +1136,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-23": 16,
+      "2026-03-23": 2270,
       "2026-03-22": 2880,
       "2026-03-21": 2880,
       "2026-03-20": 2880,
@@ -1208,7 +1212,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-23": 16,
+      "2026-03-23": 2270,
       "2026-03-22": 2880,
       "2026-03-21": 2880,
       "2026-03-20": 2880,
@@ -1284,7 +1288,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-23": 16,
+      "2026-03-23": 2270,
       "2026-03-22": 2880,
       "2026-03-21": 2880,
       "2026-03-20": 2880,
