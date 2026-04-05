@@ -200,7 +200,7 @@
     "timeMonth": 476,
     "timeYear": 513,
     "dailyMinutesDown": {
-      "2026-04-05": 383,
+      "2026-04-05": 408,
       "2026-04-04": 1440,
       "2026-04-03": 1440,
       "2026-04-02": 1440,
@@ -289,7 +289,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-05": 766,
+      "2026-04-05": 816,
       "2026-04-04": 2880,
       "2026-04-03": 2880,
       "2026-04-02": 2880,
@@ -378,7 +378,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-05": 766,
+      "2026-04-05": 816,
       "2026-04-04": 2880,
       "2026-04-03": 2880,
       "2026-04-02": 2880,
@@ -467,7 +467,7 @@
     "timeMonth": 358,
     "timeYear": 362,
     "dailyMinutesDown": {
-      "2026-04-05": 383,
+      "2026-04-05": 408,
       "2026-04-04": 1440,
       "2026-04-03": 1440,
       "2026-04-02": 1440,
@@ -574,7 +574,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-05": 766,
+      "2026-04-05": 816,
       "2026-04-04": 2880,
       "2026-04-03": 2880,
       "2026-04-02": 2880,
@@ -723,19 +723,19 @@
     "url": "https://folk.world/de/autor-werden/",
     "icon": "https://icons.duckduckgo.com/ip3/folk.world.ico",
     "slug": "fw-https-de-page-live",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 216,
-    "timeDay": 132,
-    "timeWeek": 200,
-    "timeMonth": 239,
-    "timeYear": 216,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.28%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.97%",
+    "time": 228,
+    "timeDay": 445,
+    "timeWeek": 297,
+    "timeMonth": 264,
+    "timeYear": 228,
     "dailyMinutesDown": {
-      "2026-04-05": 1
+      "2026-04-05": 25
     }
   },
   {
@@ -743,19 +743,19 @@
     "url": "https://folk.world/de/shop/",
     "icon": "https://icons.duckduckgo.com/ip3/folk.world.ico",
     "slug": "fw-https-de-shop-home-live",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 217,
-    "timeDay": 134,
-    "timeWeek": 198,
-    "timeMonth": 260,
-    "timeYear": 217,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.28%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.97%",
+    "time": 233,
+    "timeDay": 542,
+    "timeWeek": 327,
+    "timeMonth": 294,
+    "timeYear": 233,
     "dailyMinutesDown": {
-      "2026-04-05": 1
+      "2026-04-05": 25
     }
   },
   {
@@ -763,19 +763,19 @@
     "url": "https://folk.world/de/s/german-smallpipe/",
     "icon": "https://icons.duckduckgo.com/ip3/folk.world.ico",
     "slug": "fw-https-de-shop-product-live",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 493,
-    "timeDay": 247,
-    "timeWeek": 381,
-    "timeMonth": 544,
-    "timeYear": 493,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.27%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.97%",
+    "time": 519,
+    "timeDay": 948,
+    "timeWeek": 600,
+    "timeMonth": 599,
+    "timeYear": 519,
     "dailyMinutesDown": {
-      "2026-04-05": 1
+      "2026-04-05": 25
     }
   },
   {
@@ -783,19 +783,19 @@
     "url": "https://folk.world/de/stag/dudelsack/",
     "icon": "https://icons.duckduckgo.com/ip3/folk.world.ico",
     "slug": "fw-https-de-shop-tag-live",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 193,
-    "timeDay": 136,
-    "timeWeek": 158,
-    "timeMonth": 222,
-    "timeYear": 193,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.27%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.97%",
+    "time": 208,
+    "timeDay": 524,
+    "timeWeek": 285,
+    "timeMonth": 255,
+    "timeYear": 208,
     "dailyMinutesDown": {
-      "2026-04-05": 1
+      "2026-04-05": 25
     }
   },
   {
@@ -803,19 +803,19 @@
     "url": "https://folk.world/feed/",
     "icon": "https://icons.duckduckgo.com/ip3/folk.world.ico",
     "slug": "fw-https-feed-live",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.27%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.97%",
     "time": 195,
-    "timeDay": 165,
-    "timeWeek": 152,
-    "timeMonth": 237,
+    "timeDay": 158,
+    "timeWeek": 151,
+    "timeMonth": 234,
     "timeYear": 195,
     "dailyMinutesDown": {
-      "2026-04-05": 1
+      "2026-04-05": 25
     }
   },
   {
@@ -823,19 +823,19 @@
     "url": "https://folk.world/de/folkblog/folk-klange-musikrezensionen/",
     "icon": "https://icons.duckduckgo.com/ip3/folk.world.ico",
     "slug": "fw-https-folkblog-cat-live",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 476,
-    "timeDay": 238,
-    "timeWeek": 372,
-    "timeMonth": 533,
-    "timeYear": 476,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.27%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.97%",
+    "time": 498,
+    "timeDay": 833,
+    "timeWeek": 555,
+    "timeMonth": 578,
+    "timeYear": 498,
     "dailyMinutesDown": {
-      "2026-04-05": 1
+      "2026-04-05": 25
     }
   },
   {
@@ -843,19 +843,19 @@
     "url": "https://folk.world/folkblog/",
     "icon": "https://icons.duckduckgo.com/ip3/folk.world.ico",
     "slug": "fw-https-folkblog-live",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 469,
-    "timeDay": 279,
-    "timeWeek": 365,
-    "timeMonth": 524,
-    "timeYear": 469,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.27%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.97%",
+    "time": 489,
+    "timeDay": 828,
+    "timeWeek": 539,
+    "timeMonth": 566,
+    "timeYear": 489,
     "dailyMinutesDown": {
-      "2026-04-05": 1
+      "2026-04-05": 25
     }
   },
   {
@@ -947,7 +947,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-05": 768,
+      "2026-04-05": 816,
       "2026-04-04": 2880,
       "2026-04-03": 2880,
       "2026-04-02": 2880,
@@ -1036,7 +1036,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-05": 768,
+      "2026-04-05": 816,
       "2026-04-04": 2880,
       "2026-04-03": 2880,
       "2026-04-02": 2880,
@@ -1241,7 +1241,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-05": 768,
+      "2026-04-05": 816,
       "2026-04-04": 2880,
       "2026-04-03": 2880,
       "2026-04-02": 2880,
@@ -1330,7 +1330,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-05": 768,
+      "2026-04-05": 816,
       "2026-04-04": 2880,
       "2026-04-03": 2880,
       "2026-04-02": 2880,
@@ -1419,7 +1419,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-05": 768,
+      "2026-04-05": 816,
       "2026-04-04": 2880,
       "2026-04-03": 2880,
       "2026-04-02": 2880,
