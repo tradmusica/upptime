@@ -200,7 +200,7 @@
     "timeMonth": 476,
     "timeYear": 513,
     "dailyMinutesDown": {
-      "2026-04-16": 667,
+      "2026-04-16": 741,
       "2026-04-15": 1440,
       "2026-04-14": 1440,
       "2026-04-13": 1440,
@@ -300,7 +300,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-16": 1334,
+      "2026-04-16": 1482,
       "2026-04-15": 2880,
       "2026-04-14": 2880,
       "2026-04-13": 2880,
@@ -400,7 +400,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-16": 1334,
+      "2026-04-16": 1482,
       "2026-04-15": 2880,
       "2026-04-14": 2880,
       "2026-04-13": 2880,
@@ -500,7 +500,7 @@
     "timeMonth": 358,
     "timeYear": 362,
     "dailyMinutesDown": {
-      "2026-04-16": 667,
+      "2026-04-16": 742,
       "2026-04-15": 1440,
       "2026-04-14": 1440,
       "2026-04-13": 1440,
@@ -618,7 +618,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-16": 1334,
+      "2026-04-16": 1484,
       "2026-04-15": 2880,
       "2026-04-14": 2880,
       "2026-04-13": 2880,
@@ -1013,7 +1013,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-16": 1334,
+      "2026-04-16": 1484,
       "2026-04-15": 2880,
       "2026-04-14": 2880,
       "2026-04-13": 2880,
@@ -1113,7 +1113,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-16": 1334,
+      "2026-04-16": 1484,
       "2026-04-15": 2880,
       "2026-04-14": 2880,
       "2026-04-13": 2880,
@@ -1203,17 +1203,17 @@
     "slug": "hundetrainerin",
     "status": "up",
     "uptime": "99.94%",
-    "uptimeDay": "98.29%",
-    "uptimeWeek": "99.76%",
+    "uptimeDay": "98.21%",
+    "uptimeWeek": "99.74%",
     "uptimeMonth": "99.84%",
     "uptimeYear": "99.94%",
-    "time": 1047,
-    "timeDay": 7494,
-    "timeWeek": 2111,
-    "timeMonth": 1179,
-    "timeYear": 1047,
+    "time": 1080,
+    "timeDay": 7268,
+    "timeWeek": 2391,
+    "timeMonth": 1261,
+    "timeYear": 1080,
     "dailyMinutesDown": {
-      "2026-04-16": 25,
+      "2026-04-16": 26,
       "2026-03-23": 23,
       "2026-03-17": 23
     }
@@ -1225,17 +1225,17 @@
     "slug": "hundetrainerin",
     "status": "up",
     "uptime": "99.94%",
-    "uptimeDay": "98.29%",
-    "uptimeWeek": "99.76%",
+    "uptimeDay": "98.21%",
+    "uptimeWeek": "99.74%",
     "uptimeMonth": "99.84%",
     "uptimeYear": "99.94%",
-    "time": 1047,
-    "timeDay": 7494,
-    "timeWeek": 2111,
-    "timeMonth": 1179,
-    "timeYear": 1047,
+    "time": 1080,
+    "timeDay": 7268,
+    "timeWeek": 2391,
+    "timeMonth": 1261,
+    "timeYear": 1080,
     "dailyMinutesDown": {
-      "2026-04-16": 25,
+      "2026-04-16": 26,
       "2026-03-23": 23,
       "2026-03-17": 23
     }
@@ -1266,18 +1266,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/hundetrainerin.nrw.ico",
     "slug": "hundetrainerin-non-www",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.93%",
+    "uptimeDay": "94.76%",
+    "uptimeWeek": "99.25%",
+    "uptimeMonth": "99.83%",
+    "uptimeYear": "99.93%",
     "time": 251,
     "timeDay": 281,
     "timeWeek": 236,
     "timeMonth": 244,
     "timeYear": 251,
     "dailyMinutesDown": {
-      "2026-04-16": 1
+      "2026-04-16": 75
     }
   },
   {
@@ -1335,7 +1335,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-16": 1334,
+      "2026-04-16": 1484,
       "2026-04-15": 2880,
       "2026-04-14": 2880,
       "2026-04-13": 2880,
@@ -1435,7 +1435,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-16": 1334,
+      "2026-04-16": 1484,
       "2026-04-15": 2880,
       "2026-04-14": 2880,
       "2026-04-13": 2880,
@@ -1535,7 +1535,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-16": 1334,
+      "2026-04-16": 1484,
       "2026-04-15": 2880,
       "2026-04-14": 2880,
       "2026-04-13": 2880,
