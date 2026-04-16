@@ -1,7 +1,7 @@
 url: https://www.folk.world
-status: up
-code: 200
-responseTime: 1084
-lastUpdated: 2026-04-15T23:18:14.678Z
+status: down
+code: 503
+responseTime: 661
+lastUpdated: 2026-04-16T06:21:44.660Z
 startTime: 2026-01-26T16:32:49.070Z
 generator: Upptime <https://github.com/upptime/upptime>
