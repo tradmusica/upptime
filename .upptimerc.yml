@@ -2,6 +2,7 @@ owner: tradmusica # Your GitHub organization or username, where this repository 
 repo: upptime # The name of this repository
 
 sites:
+  # netcup registrar domains
   - name: bagpipe Category
     url: https://bagpipe.de/onlinekurse-dudelsack/
   - name: BP Hallo HTTP non-WWW
@@ -34,6 +35,7 @@ sites:
     url: http://www.bagpipe.de
   - name: BP MX
     url: dns-resolve://bagpipe.de
+  # Squarespace registrar domains already monitored as websites
   - name: FW HTTP non-www
     url: http://folk.world
   - name: FW HTTPS DE BlogPost LIVE
@@ -78,12 +80,64 @@ sites:
     url: https://hundetrainerin.nrw/
   - name: hundetrainerin non-WWW non-SSL
     url: http://hundetrainerin.nrw/
+  # Squarespace registrar domain already monitored as a website
   - name: nyckelharpa-spielen
     url: https://nyckelharpa-spielen.de/
+
+  # Squarespace registrar domains
+  - name: Registrar Squarespace tradmusica.us DNS
+    url: dns-resolve://tradmusica.us
+  - name: Registrar Squarespace tradmusica.ca DNS
+    url: dns-resolve://tradmusica.ca
+  - name: Registrar Squarespace tradmusica.eu DNS
+    url: dns-resolve://tradmusica.eu
+  - name: Registrar Squarespace tradmusica.net DNS
+    url: dns-resolve://tradmusica.net
+  - name: Registrar Squarespace tradmusica.pl DNS
+    url: dns-resolve://tradmusica.pl
+  - name: Registrar Squarespace tradmusica.nl DNS
+    url: dns-resolve://tradmusica.nl
+  - name: Registrar Squarespace tradmusica.co.uk DNS
+    url: dns-resolve://tradmusica.co.uk
+  - name: Registrar Squarespace tradmusica.uk DNS
+    url: dns-resolve://tradmusica.uk
+  - name: Registrar Squarespace tradmusica.fr DNS
+    url: dns-resolve://tradmusica.fr
+  - name: Registrar Squarespace tradmusica.de DNS
+    url: dns-resolve://tradmusica.de
+  - name: Registrar Squarespace tradmusica.com DNS
+    url: dns-resolve://tradmusica.com
+  - name: Registrar Squarespace folk.events DNS
+    url: dns-resolve://folk.events
+  - name: Registrar Squarespace boettcher.earth DNS
+    url: dns-resolve://boettcher.earth
+
+  # easyname registrar domains
+  - name: Registrar easyname tradmusica.at DNS
+    url: dns-resolve://tradmusica.at
+  - name: Registrar easyname tradmusica.ch DNS
+    url: dns-resolve://tradmusica.ch
+  - name: Registrar easyname tradmusica.dk DNS
+    url: dns-resolve://tradmusica.dk
+  - name: Registrar easyname tradmusica.es DNS
+    url: dns-resolve://tradmusica.es
+  - name: Registrar easyname tradmusica.it DNS
+    url: dns-resolve://tradmusica.it
+  - name: Registrar easyname tradmusica.se DNS
+    url: dns-resolve://tradmusica.se
+
+  # IONOS registrar domains
+  - name: Registrar IONOS tradmusica.org DNS
+    url: dns-resolve://tradmusica.org
+  - name: Registrar IONOS trike.flights DNS
+    url: dns-resolve://trike.flights
+  # Squarespace registrar domain already monitored through DNS
   - name: spielleute.com MX
     url: dns-resolve://spielleute.com
+  # netcup registrar domain already monitored through DNS and website checks
   - name: VS MX
     url: dns-resolve://spielleute.de
+  # Squarespace registrar domain already monitored through DNS
   - name: verlag-der-spielleute.de MX
     url: dns-resolve://verlag-der-spielleute.de
   - name: VS HTTP non-www
