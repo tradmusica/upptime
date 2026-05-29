@@ -1,0 +1,70 @@
+name: WWW CNAME CI
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  check:
+    name: Check www CNAME records
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Install DNS tools
+        run: sudo apt-get update && sudo apt-get install -y dnsutils
+
+      - name: Check that www points to apex domains
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          domains=(
+            tradmusica.us
+            tradmusica.ca
+            tradmusica.eu
+            tradmusica.net
+            tradmusica.pl
+            tradmusica.nl
+            tradmusica.co.uk
+            tradmusica.uk
+            tradmusica.fr
+            tradmusica.de
+            nyckelharpa-spielen.de
+            tradmusica.com
+            folk.events
+            verlag-der-spielleute.de
+            boettcher.earth
+            spielleute.com
+            folk.world
+            tradmusica.org
+            spielleute.de
+            bagpipe.de
+            tradmusica.at
+            tradmusica.ch
+            tradmusica.dk
+            tradmusica.es
+            tradmusica.it
+            tradmusica.se
+            trike.flights
+          )
+
+          failures=0
+          for domain in "${domains[@]}"; do
+            expected="${domain}."
+            cname="$(dig +short CNAME "www.${domain}" | tail -n 1)"
+
+            if [[ "${cname}" == "${expected}" ]]; then
+              echo "OK: www.${domain} CNAME -> ${cname}"
+            else
+              echo "ERROR: www.${domain} CNAME is '${cname:-<missing>}' but expected '${expected}'" >&2
+              failures=$((failures + 1))
+            fi
+          done
+
+          if (( failures > 0 )); then
+            echo "${failures} www CNAME check(s) failed" >&2
+            exit 1
+          fi
