@@ -1,7 +1,7 @@
 url: https://www.carovana.ch
-status: up
-code: 200
-responseTime: 805
-lastUpdated: 2026-06-12T23:34:08.872Z
+status: down
+code: 503
+responseTime: 26223
+lastUpdated: 2026-06-13T15:32:54.561Z
 startTime: 2026-01-26T16:32:25.999Z
 generator: Upptime <https://github.com/upptime/upptime>
