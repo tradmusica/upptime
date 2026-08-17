@@ -1,7 +1,7 @@
 url: http://spielleute.de
-status: up
-code: 200
-responseTime: 1196
-lastUpdated: 2026-08-16T23:18:04.002Z
+status: down
+code: 403
+responseTime: 217
+lastUpdated: 2026-08-17T12:11:24.640Z
 startTime: 2026-01-26T16:33:10.160Z
 generator: Upptime <https://github.com/upptime/upptime>
