@@ -1,7 +1,7 @@
 url: http://www.hundetrainerin.nrw/
-status: up
-code: 200
-responseTime: 668
-lastUpdated: 2026-09-06T23:11:35.078Z
+status: down
+code: 500
+responseTime: 242
+lastUpdated: 2026-09-07T05:01:22.942Z
 startTime: 2026-01-26T16:32:58.601Z
 generator: Upptime <https://github.com/upptime/upptime>
