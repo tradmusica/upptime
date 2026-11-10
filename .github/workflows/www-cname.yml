@@ -16,55 +16,87 @@ jobs:
       - name: Install DNS tools
         run: sudo apt-get update && sudo apt-get install -y dnsutils
 
-      - name: Check that www points to apex domains
+      - name: Check that www matches the provider's required record
         shell: bash
         run: |
           set -euo pipefail
 
-          domains=(
-            tradmusica.us
-            tradmusica.ca
-            tradmusica.eu
-            tradmusica.net
-            tradmusica.pl
-            tradmusica.nl
-            tradmusica.co.uk
-            tradmusica.uk
-            tradmusica.fr
-            tradmusica.de
-            nyckelharpa-spielen.de
-            tradmusica.com
-            folk.events
-            verlag-der-spielleute.de
-            boettcher.earth
-            spielleute.com
-            folk.world
-            tradmusica.org
-            spielleute.de
-            bagpipe.de
-            tradmusica.at
-            tradmusica.ch
-            tradmusica.dk
-            tradmusica.es
-            tradmusica.it
-            tradmusica.se
-            trike.flights
+          # Each www host must carry the record its DNS/hosting provider requires:
+          #   apex          CNAME www -> apex domain
+          #   cname:<host>  CNAME www -> provider host (e.g. Squarespace forwarding, Kinsta)
+          #   same-a        www resolves (A records) to exactly the apex addresses
+          #   none          no website on this domain (mail only), so no www record
+          checks=(
+            "tradmusica.us cname:ext-sq.squarespace.com."
+            "tradmusica.ca cname:ext-sq.squarespace.com."
+            "tradmusica.eu cname:ext-sq.squarespace.com."
+            "tradmusica.net cname:ext-sq.squarespace.com."
+            "tradmusica.pl cname:ext-sq.squarespace.com."
+            "tradmusica.nl cname:ext-sq.squarespace.com."
+            "tradmusica.co.uk cname:ext-sq.squarespace.com."
+            "tradmusica.uk cname:ext-sq.squarespace.com."
+            "tradmusica.de cname:ext-sq.squarespace.com."
+            "tradmusica.com cname:folkworld.hosting.kinsta.cloud."
+            "tradmusica.es cname:folkworld.hosting.kinsta.cloud."
+            "tradmusica.fr cname:folkworld.hosting.kinsta.cloud."
+            "nyckelharpa-spielen.de apex"
+            "folk.world apex"
+            "tradmusica.org apex"
+            "spielleute.de apex"
+            "bagpipe.de apex"
+            "trike.flights apex"
+            "folk.events same-a"
+            "verlag-der-spielleute.de same-a"
+            "spielleute.com same-a"
+            "tradmusica.at same-a"
+            "tradmusica.ch same-a"
+            "tradmusica.dk same-a"
+            "tradmusica.it same-a"
+            "tradmusica.se same-a"
+            "boettcher.earth none"
           )
 
-          failures=0
-          for domain in "${domains[@]}"; do
-            expected="${domain}."
-            cname="$(dig +short CNAME "www.${domain}" | tail -n 1)"
+          a_records() { dig +short A "$1" | grep -E '^[0-9.]+$' | sort -u | paste -sd, -; }
 
-            if [[ "${cname}" == "${expected}" ]]; then
-              echo "OK: www.${domain} CNAME -> ${cname}"
-            else
-              echo "ERROR: www.${domain} CNAME is '${cname:-<missing>}' but expected '${expected}'" >&2
-              failures=$((failures + 1))
-            fi
+          failures=0
+          for entry in "${checks[@]}"; do
+            read -r domain mode <<< "${entry}"
+            host="www.${domain}"
+            cname="$(dig +short CNAME "${host}" | tail -n 1)"
+
+            case "${mode}" in
+              apex|cname:*)
+                if [[ "${mode}" == "apex" ]]; then expected="${domain}."; else expected="${mode#cname:}"; fi
+                if [[ "${cname}" == "${expected}" ]]; then
+                  echo "OK: ${host} CNAME -> ${cname}"
+                else
+                  echo "ERROR: ${host} CNAME is '${cname:-<missing>}' but expected '${expected}'" >&2
+                  failures=$((failures + 1))
+                fi
+                ;;
+              same-a)
+                apex_a="$(a_records "${domain}")"
+                www_a="$(a_records "${host}")"
+                if [[ -n "${www_a}" && "${www_a}" == "${apex_a}" ]]; then
+                  echo "OK: ${host} A -> ${www_a} (same as apex)"
+                else
+                  echo "ERROR: ${host} A is '${www_a:-<missing>}' but apex is '${apex_a:-<missing>}'" >&2
+                  failures=$((failures + 1))
+                fi
+                ;;
+              none)
+                www_a="$(a_records "${host}")"
+                if [[ -z "${cname}" && -z "${www_a}" ]]; then
+                  echo "OK: ${host} has no record (mail-only domain)"
+                else
+                  echo "ERROR: ${host} resolves ('${cname:-${www_a}}') but the domain is mail-only" >&2
+                  failures=$((failures + 1))
+                fi
+                ;;
+            esac
           done
 
           if (( failures > 0 )); then
-            echo "${failures} www CNAME check(s) failed" >&2
+            echo "${failures} www check(s) failed" >&2
             exit 1
           fi
