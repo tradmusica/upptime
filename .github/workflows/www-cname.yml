@@ -56,7 +56,7 @@ jobs:
             "boettcher.earth none"
           )
 
-          a_records() { dig +short A "$1" | grep -E '^[0-9.]+$' | sort -u | paste -sd, -; }
+          a_records() { { dig +short A "$1" | grep -E '^[0-9.]+$' || true; } | sort -u | paste -sd, -; }
 
           failures=0
           for entry in "${checks[@]}"; do
