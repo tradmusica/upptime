@@ -157,6 +157,32 @@ sites:
   - name: VS PBF HTTP www
     url: http://www.spielleute.de/palmbayfrost
 
+  # WPML language domains of spielleute.de (tm-Versionen): FR, EN, ES
+  - name: TM-FR HTTP non-www
+    url: http://tradmusica.fr
+  - name: TM-FR HTTPS non-www +SSL
+    url: https://tradmusica.fr
+  - name: TM-FR HTTPS www +SSL
+    url: https://www.tradmusica.fr
+  - name: TM-FR HTTP www
+    url: http://www.tradmusica.fr
+  - name: TM-EN HTTP non-www
+    url: http://tradmusica.com
+  - name: TM-EN HTTPS non-www +SSL
+    url: https://tradmusica.com
+  - name: TM-EN HTTPS www +SSL
+    url: https://www.tradmusica.com
+  - name: TM-EN HTTP www
+    url: http://www.tradmusica.com
+  - name: TM-ES HTTP non-www
+    url: http://tradmusica.es
+  - name: TM-ES HTTPS non-www +SSL
+    url: https://tradmusica.es
+  - name: TM-ES HTTPS www +SSL
+    url: https://www.tradmusica.es
+  - name: TM-ES HTTP www
+    url: http://www.tradmusica.es
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -175,4 +201,3 @@ status-website:
 # See https://upptime.js.org/docs/configuration
 assignees:
   - tradmusica
-
