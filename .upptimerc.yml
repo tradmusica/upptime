@@ -1,18 +1,16 @@
 owner: tradmusica # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
+# Check interval 15 min instead of 5 (reduce monitor traffic on Kinsta, approved by Jonas 2026-11-16)
+workflowSchedule:
+  uptime: "*/15 * * * *"
+
 sites:
   # netcup registrar domains
   - name: bagpipe Category
     url: https://bagpipe.de/onlinekurse-dudelsack/
-  - name: BP Hallo HTTP non-WWW
-    url: http://bagpipe.de/hallo-dudelsack
   - name: BP Hallo HTTPS non-WWW
     url: https://bagpipe.de/hallo-dudelsack
-  - name: BP Hallo HTTPS WWW
-    url: https://www.bagpipe.de/hallo-dudelsack
-  - name: BP Hallo HTTP WWW
-    url: http://www.bagpipe.de/hallo-dudelsack
   - name: BP HTTP non-www
     url: http://bagpipe.de
   - name: BP HTTPS non-www COMP
@@ -148,14 +146,8 @@ sites:
     url: https://www.spielleute.de
   - name: VS HTTP www
     url: http://www.spielleute.de
-  - name: VS PBF HTTP
-    url: http://spielleute.de/palmbayfrost
   - name: VS PBF HTTPS
     url: https://spielleute.de/palmbayfrost
-  - name: VS PBF HTTPS www
-    url: https://www.spielleute.de/palmbayfrost
-  - name: VS PBF HTTP www
-    url: http://www.spielleute.de/palmbayfrost
 
   # WPML language domains of spielleute.de (tm-Versionen): FR, EN, ES
   - name: TM-FR HTTP non-www
