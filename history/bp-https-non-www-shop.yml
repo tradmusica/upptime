@@ -1,7 +1,7 @@
 url: https://bagpipe.de/shop/
-status: up
-code: 200
-responseTime: 501
-lastUpdated: 2026-11-16T09:25:29.820Z
+status: down
+code: 403
+responseTime: 407
+lastUpdated: 2026-11-16T11:09:23.582Z
 startTime: 2026-01-26T16:32:17.410Z
 generator: Upptime <https://github.com/upptime/upptime>
