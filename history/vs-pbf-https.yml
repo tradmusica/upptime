@@ -1,7 +1,7 @@
 url: https://spielleute.de/palmbayfrost
-status: up
-code: 200
-responseTime: 1476
-lastUpdated: 2026-11-24T23:09:06.860Z
+status: down
+code: 503
+responseTime: 527
+lastUpdated: 2026-11-25T18:28:22.070Z
 startTime: 2026-01-26T16:33:16.811Z
 generator: Upptime <https://github.com/upptime/upptime>
