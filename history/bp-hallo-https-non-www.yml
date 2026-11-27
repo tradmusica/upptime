@@ -1,7 +1,7 @@
 url: https://bagpipe.de/hallo-dudelsack
-status: up
-code: 200
-responseTime: 3714
-lastUpdated: 2026-11-26T23:03:10.316Z
+status: down
+code: 503
+responseTime: 497
+lastUpdated: 2026-11-27T06:34:47.327Z
 startTime: 2026-01-26T16:32:10.662Z
 generator: Upptime <https://github.com/upptime/upptime>
